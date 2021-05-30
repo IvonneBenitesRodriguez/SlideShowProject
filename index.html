@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="parteImportante">
+            <img src="img/cupcake.jpeg" class="cupcakelogo" alt="cupcake">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Historia</a>
+                    </li>
+                    <li>
+                        <a href="#">Postres</a>
+                    </li>
+                    <li><a href="#">Delivery</a></li>
+                    <li>
+                        <a href="#">Consejos</a>
+                    </li>
+                </ul>
+            </nav>
+            <img src="img/cupcake.jpeg" class="cupcakelogo" alt="cupcake">
+        </div>
+    </header>
+
+    <!--Carrousel-->
+    <div class="slideshow-container fade">
+        <!-- Images with Message Info-->
+        <div class="Containers">
+            <div class="MessageInfo">1/4</div>
+            <img src="img/cupcake1.jpeg" alt="cupcakedenieve">
+            <div class="Info">Cupcake de nata de almendra</div>
+        </div>
+        <div class="Containers">
+            <div class="MessageInfo">2/4</div>
+            <img src="img/cupcake2.jpeg" alt="cupcake de colores">
+            <div class="Info">Cupcake colores de arcoiris</div>
+        </div>
+        <div class="Containers">
+            <div class="MessageInfo">3/4</div>
+            <img src="img/cupcake3.jpeg" alt="cupcake de azucares">
+            <div class="Info">Cupcake de azucares</div>
+        </div>
+        <div class="Containers">
+            <div class="MessageInfo">4/4</div>
+            <img src="img/cupcake4.jpeg" alt="cupcake de fresa">
+            <div class="Info">Cupcake de fresa</div>
+        </div>
+        <!--Back and Forward Arrows-->
+        <a class="Back" onclick="plusSlides(-1)"><img src="img/redArrowBack.png"></a>
+        <a class="Forward" onclick="plusSlides(1)"><img src="img/redForwardArrow.png"></a>
+    </div>
+    <br>
+    <!--The circle Dots -->
+    <div class="boxDots">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+        <span class="dots" onclick="currentSlide(4)"></span>
+    </div>
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
