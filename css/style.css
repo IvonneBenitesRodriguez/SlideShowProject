@@ -1,18 +1,26 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 20px;
-    padding: 25px;
     font-size: 'Dancing Script', cursive;
+    background-image: url(../img/universo.png);
 }
-
+h1{
+    padding: 2%;
+    text-align: center;
+    font-size: 2rem;
+    color: deeppink;
+    background-color: #00bbf0;
+}
 .parteImportante {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 3%;
 }
 
 .cupcakelogo {
