@@ -1,7 +1,7 @@
 # Header Part Project
 This project is about a small header part which has a **slideshow which shows the products that the Landing page offers**.
       It has also the name of the products under the images with an enumeration.
-     Link :   https://ivonnebenitesrodriguez.github.io/SlideShowProject/
+     Link :   https://649cbdf363b6a105e8d567fb--precious-kheer-556f80.netlify.app/
       
 ## Features:
 * The user can appreciate the horizontal navigation bar.
