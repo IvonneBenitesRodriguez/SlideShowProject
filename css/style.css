@@ -204,3 +204,31 @@ footer{
     font-size: 1.2rem;
     color: white;
 }
+h2.title{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+p.first-text{
+    text-align: center;
+    width: 36%;
+    margin-left: 3%; 
+    line-height: 30px;
+}
+.first-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+figcaption{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+p.second-text{
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 30px;
+    margin-bottom: 2%;
+}
