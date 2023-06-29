@@ -1,6 +1,6 @@
 # Header Part Project
 This project is about a small header part which has a **slideshow which shows the products that the Landing page offers**.
-      It has also the name of the products under the images with an enumeration.
+      It has also the name of the products under the images with an enumeration.<br/>
      Link :  https://ivonnebenitesrodriguez.github.io/SlideShowProject/
       
 ## Features:
