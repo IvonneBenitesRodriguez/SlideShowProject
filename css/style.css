@@ -6,7 +6,7 @@
 
 body {
     font-size: 'Dancing Script', cursive;
-    background-image: url(../img/universo.png);
+    background-color: white;
 }
 h1{
     padding: 2%;
@@ -32,18 +32,21 @@ nav {
     margin-right: 101px;
 }
 
-ul {
+ul .nav-part {
     list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 70px;
     margin-left: 100px;
 }
-
+li{
+    list-style: none;
+}
 li a {
     list-style: none;
-    color: palevioletred;
+    color: #00bbf0;
     text-decoration: none;
+    font-weight: 900;
     font-size: 22px;
     margin-right: 70px;
 }
@@ -132,7 +135,7 @@ li a {
 /* The circles and bullets indicators */
 
 .boxDots {
-    text-align: center;
+   
 }
 
 .dots {
@@ -172,4 +175,32 @@ li a {
     to {
         opacity: 2;
     }
+}
+footer{
+    background-color: #00bbf0;
+    padding: 2%;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-part span{
+    text-align: center;
+    margin-top: 6%;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-style: italic;
+    color: blue;
+}
+.footer-part ul{
+ display: block;
+ margin-top: 8%;
+ margin-left: 0;
+ margin-right: 0;
+}
+.footer-part ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    color: white;
 }
